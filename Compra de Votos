@@ -1,0 +1,28 @@
+package compra.de.votos;
+
+import javax.swing.JOptionPane;
+
+/**
+ *
+ * @author mgoscar
+ */
+public class CompraDeVotos {
+
+    /**
+     * @param args the command line arguments
+     */
+    public static void main(String[] args) {
+
+        //int candidatos, votantes, ganador;
+        //candidatos = Integer.parseInt(JOptionPane.showInputDialog("Ingrese Candidatos"));
+        //votantes = Integer.parseInt(JOptionPane.showInputDialog("Ingrese Votanes"));
+        //ganador = Integer.parseInt(JOptionPane.showInputDialog("Ingrese Candidato Ganador"));
+        coacción n = new coacción(2, 7,1);
+        n.LlenarTablaResultante();
+        n.ImprimirTabla();
+        n.OrganizarporValorcompra();
+        
+
+    }
+
+}
